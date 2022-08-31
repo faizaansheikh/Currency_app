@@ -1,0 +1,100 @@
+body{
+    background-color: grey;
+}
+.main{
+    width: 750px;
+    height: 400px;
+    background-color: whitesmoke;
+    margin: 0 auto;
+    margin-top: 150px;
+    border: 2px solid black;
+    
+}
+.smain{
+   display: flex;
+   flex-direction: row;
+  position: relative;
+  justify-content: center;
+  bottom: 20px;
+  padding-top: 10px;
+
+}
+.samount{
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    margin-top: 30px;
+    text-align: center;
+}
+.amount{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+    position: relative;
+    top: 10px;
+    display: inline-block;
+}
+h1{
+    margin-left: 25px;
+}
+input{
+    height: 30px;
+    width: 200px;
+    margin-left: 20px;
+    font-size: 20px;
+    padding: 10px;
+}
+.dollar{
+    height: 20px;
+    width: 200px;
+    margin-left: 20px;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid black;
+}
+.dollarz{
+    height: 20px;
+    width: 200px;
+    margin-left: 20px;
+    font-size: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+   
+}
+.spn{
+    position: relative;
+    bottom: 5px;
+    font-weight: bold;
+}
+
+.icon{
+    position: relative;
+    bottom: 2px;
+    
+}
+button{
+    font-size: 19px;
+    padding: 10px;
+    height: 45px;
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+    padding-top: 10px;
+    display: none;
+}
+.drop{
+    height: 5px;
+    width: 200px;
+    position: relative;
+    right: 10px;
+    bottom: 10px;
+    font-size: 20px;
+    
+}
+.last{
+    display: flex;
+    justify-content: center;
+}
